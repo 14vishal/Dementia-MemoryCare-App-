@@ -1,0 +1,72 @@
+Create a comprehensive web application called "MemoryCare" - a digital companion for dementia patients and their caregivers. This should be a full-stack application with the following specifications:
+
+## PROJECT STRUCTURE
+Build this as a modern web application with:
+- Frontend: React.js with responsive design
+- Backend: Node.js with Express
+- Database: JSON file storage (for Replit compatibility)
+- Styling: CSS3 with accessibility features
+
+## CORE FEATURES TO IMPLEMENT
+
+### Patient Interface:
+1. **Memory Journal**: Simple photo/text diary with date stamps
+2. **Familiar Faces**: Photo gallery with names and relationships
+3. **Daily Routine**: Step-by-step visual task guides (morning routine, medication, etc.)
+4. **Simple Navigation**: Large buttons, high contrast, clear icons
+5. **Emergency Button**: Prominent red button for help
+
+### Caregiver Dashboard:
+1. **Patient Overview**: Recent activities, mood tracking, medication status
+2. **Behavior Log**: Track sleep, eating, mood with simple forms
+3. **Medication Manager**: Schedule reminders with dosage tracking
+4. **Quick Actions**: Emergency contacts, doctor notes, care tips
+5. **Progress Charts**: Simple visual charts showing trends
+
+### Shared Features:
+1. **Photo Memory Bank**: Upload and categorize family photos
+2. **Important Contacts**: Easy-access contact list with large buttons
+3. **Calendar View**: Appointments, medication times, activities
+4. **Settings**: Font size, contrast themes, notification preferences
+
+## TECHNICAL REQUIREMENTS
+
+### Frontend (React):
+- Large, touch-friendly UI elements (minimum 44px)
+- High contrast color scheme with dark/light mode toggle
+- Simple navigation with breadcrumbs
+- Loading states and error handling
+- Responsive design for tablets and phones
+- Accessibility features (ARIA labels, keyboard navigation)
+
+### Backend (Node.js/Express):
+- RESTful API endpoints for all CRUD operations
+- File upload handling for photos
+- Simple authentication (username/password)
+- Data validation and sanitization
+- Error handling middleware
+- CORS configuration
+
+### Database Structure (JSON files):
+```json
+users.json: {
+  "patients": [...],
+  "caregivers": [...],
+  "relationships": [...]
+}
+
+memories.json: {
+  "entries": [...],
+  "photos": [...]
+}
+
+routines.json: {
+  "daily_tasks": [...],
+  "medication_schedule": [...]
+}
+
+contacts.json: {
+  "emergency": [...],
+  "family": [...],
+  "medical": [...]
+}
